@@ -1,0 +1,7 @@
+package com.example.shop_api.repository;
+
+import com.example.shop_api.domain.product.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
